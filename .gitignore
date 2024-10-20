@@ -1,0 +1,26 @@
+# Ignorowanie folderu konfiguracyjnego VSCode
+.vscode/
+
+# Ignorowanie plików systemowych
+.DS_Store  # dla macOS
+Thumbs.db  # dla Windows
+
+# Ignorowanie plików tymczasowych edytora
+*.log
+*.tmp
+
+# Ignorowanie katalogu z plikami kompilacji i zależnościami (jeśli używasz narzędzi build)
+dist/
+build/
+node_modules/  # jeśli używasz npm/yarn w projekcie (np. z narzędziami frontendowymi)
+
+# Ignorowanie plików z zależnościami
+package-lock.json
+yarn.lock
+
+# Ignorowanie środowiskowych plików konfiguracyjnych
+.env
+
+# Ignorowanie plików cache narzędzi budowania i testowania
+.cache/
+coverage/
