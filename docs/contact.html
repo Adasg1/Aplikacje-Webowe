@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="site-name">DOMOPOL</h1>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+            <li><a href="gallery.html">Galeria</a></li>
+            <li id="clock"></li>
+        </ul>
+    </nav>
+
+    <div class="background"></div>
+    <div class="contact-form">
+        <h2>Skontaktuj się z nami!</h2>
+        <form action="#" method="post">
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Wpisz swój adres e-mail" required>
+    
+            <label for="subject">Temat wiadomości:</label>
+            <select id="subject" name="subject" required>
+                <option value="" disabled selected>Wybierz temat</option>
+                <option value="Zapytanie ogólne">Informacje dotyczące usług</option>
+                <option value="Wsparcie techniczne">Dostępność terminów</option>
+                <option value="Informacje o produkcie">Wsparcie techniczne</option>
+            </select>
+    
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" placeholder="Wpisz swoją wiadomość" rows="5" required></textarea>
+    
+            <input type="submit" value="Wyślij">
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; Adam Głowacki</p>
+    </footer>
+</body>
+</html>
