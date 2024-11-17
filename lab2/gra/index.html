@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/full_heart.png" />
+  <link rel="stylesheet" href="style.css">
+  <title>Zombie shooter</title>
+  <script src="script.js" defer></script> 
+</head>
+<body>
+
+  <div id="headers">
+    <div id="healthbar">
+      <img id="health1" src="images/full_heart.png">
+      <img id="health2" src="images/full_heart.png">
+      <img id="health3" src="images/full_heart.png">
+    </div>
+    <h2 id="score"></h2>
+  </div>
+
+  <div id="reset">
+    <div id="communicat">
+      <h2>You lost!</h2>
+      <h2>Your score is:</h2>
+      <h2 id="final"></h2>
+      <button id="resetGame">PLAY AGAIN!</buttsaon>
+    <audio id="gameOverMusic" src="music/sad-music.mp3" preload="auto"></audio>
+    </div>
+  </div>
+
+  <div id="board"></div>
+
+  <div id="crosshair">
+    <img src="images\aim.png">
+  </div>
+</body>
+</html>
